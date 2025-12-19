@@ -1,0 +1,442 @@
+/* Canadian Citizenship Test DOJO - Styles */
+
+:root {
+  /* Canadian colors */
+  --red: #D52B1E;
+  --red-dark: #A41E1E;
+  --white: #FFFFFF;
+
+  /* Neutral */
+  --bg: #F5F5F5;
+  --text: #333333;
+  --text-light: #666666;
+  --border: #DDDDDD;
+
+  /* Feedback */
+  --success: #28A745;
+  --success-light: #D4EDDA;
+  --error: #DC3545;
+  --error-light: #F8D7DA;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: var(--red);
+  color: var(--white);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+/* Screens */
+.screen {
+  display: none;
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.screen.active {
+  display: block;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--red);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background: var(--red-dark);
+}
+
+.btn-secondary {
+  background: var(--border);
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  background: #ccc;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Start Screen */
+#start-screen {
+  text-align: center;
+}
+
+#start-screen h2 {
+  margin-bottom: 20px;
+  color: var(--red);
+}
+
+#quiz-info {
+  background: var(--bg);
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+#last-score {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: var(--bg);
+  border-radius: 6px;
+}
+
+#last-score p {
+  margin: 5px 0;
+}
+
+#last-score .weak-notice {
+  color: var(--red);
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* Question Screen */
+#question-screen {
+  padding: 20px;
+}
+
+.progress-container {
+  margin-bottom: 20px;
+}
+
+#question-progress {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#progress-bar-fill {
+  height: 100%;
+  background: var(--red);
+  transition: width 0.3s;
+}
+
+#question-chapter {
+  display: inline-block;
+  background: var(--bg);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-bottom: 15px;
+}
+
+#question-text {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+/* Options */
+#options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  padding: 15px 20px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: var(--white);
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.option-btn:hover:not(:disabled) {
+  border-color: var(--red);
+  background: #FFF5F5;
+}
+
+.option-btn:disabled {
+  cursor: default;
+}
+
+.option-btn.correct {
+  border-color: var(--success);
+  background: var(--success-light);
+}
+
+.option-btn.incorrect {
+  border-color: var(--error);
+  background: var(--error-light);
+}
+
+/* Feedback */
+#feedback {
+  display: none;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#feedback.show {
+  display: block;
+}
+
+#feedback.correct {
+  background: var(--success-light);
+  border: 1px solid var(--success);
+}
+
+#feedback.incorrect {
+  background: var(--error-light);
+  border: 1px solid var(--error);
+}
+
+#feedback strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#next-btn {
+  display: none;
+}
+
+/* Results Screen */
+#results-screen {
+  text-align: center;
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  border: 8px solid;
+}
+
+.score-circle.pass {
+  border-color: var(--success);
+  background: var(--success-light);
+}
+
+.score-circle.fail {
+  border-color: var(--error);
+  background: var(--error-light);
+}
+
+#score-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.pass-fail {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pass-fail.pass {
+  color: var(--success);
+}
+
+.pass-fail.fail {
+  color: var(--error);
+}
+
+#correct-count, #time-spent {
+  color: var(--text-light);
+  margin-bottom: 5px;
+}
+
+.results-actions {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Progress Screen */
+#progress-screen h2 {
+  margin-bottom: 20px;
+  color: var(--red);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background: var(--bg);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--red);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+/* History Table */
+.history-section h3 {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  background: var(--bg);
+  font-weight: 600;
+}
+
+tr.pass td:last-child {
+  color: var(--success);
+}
+
+tr.fail td:last-child {
+  color: var(--error);
+}
+
+/* Import/Export */
+.data-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.data-actions .btn {
+  flex: 1;
+}
+
+#import-file {
+  display: none;
+}
+
+/* Review Screen */
+#review-screen h2 {
+  margin-bottom: 20px;
+  color: var(--red);
+}
+
+.review-list {
+  margin-bottom: 20px;
+}
+
+.review-item {
+  padding: 15px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.review-item.correct {
+  border-left: 4px solid var(--success);
+}
+
+.review-item.incorrect {
+  border-left: 4px solid var(--error);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
+  }
+
+  .screen {
+    padding: 20px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .data-actions {
+    flex-direction: column;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}

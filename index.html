@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canadian Citizenship Test DOJO</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Canadian Citizenship Test DOJO</h1>
+    <p>Practice for your citizenship test</p>
+  </header>
+
+  <div class="container">
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen active">
+      <h2>Welcome!</h2>
+      <div id="quiz-info">20 questions | 75% to pass</div>
+      <div id="last-score">
+        <p>No previous sessions. Start your first quiz!</p>
+      </div>
+      <button id="start-quiz-btn" class="btn btn-primary btn-block">Start Quiz</button>
+      <button id="view-progress-btn" class="btn btn-secondary btn-block">View Progress</button>
+    </div>
+
+    <!-- Question Screen -->
+    <div id="question-screen" class="screen">
+      <div class="progress-container">
+        <div id="question-progress">Question 1 of 20</div>
+        <div class="progress-bar">
+          <div id="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <span id="question-chapter">Chapter</span>
+      <p id="question-text">Question text goes here?</p>
+
+      <div id="options-container">
+        <!-- Options will be inserted by JS -->
+      </div>
+
+      <div id="feedback">
+        <!-- Feedback will be inserted by JS -->
+      </div>
+
+      <button id="next-btn" class="btn btn-primary btn-block">Next Question</button>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="screen">
+      <div id="score-circle" class="score-circle">
+        <span id="score-value">0%</span>
+      </div>
+      <div id="pass-fail" class="pass-fail">PASSED</div>
+      <p id="correct-count">0 of 20 correct</p>
+      <p id="time-spent">Time: 0m 0s</p>
+
+      <div class="results-actions">
+        <button id="try-again-btn" class="btn btn-primary">Try Again</button>
+        <button id="review-btn" class="btn btn-secondary">Review Answers</button>
+        <button id="results-progress-btn" class="btn btn-secondary">View Progress</button>
+      </div>
+    </div>
+
+    <!-- Review Screen -->
+    <div id="review-screen" class="screen">
+      <h2>Review Your Answers</h2>
+      <div id="review-list" class="review-list">
+        <!-- Review items will be inserted by JS -->
+      </div>
+      <button id="review-back-btn" class="btn btn-secondary btn-block">Back to Results</button>
+    </div>
+
+    <!-- Progress Screen -->
+    <div id="progress-screen" class="screen">
+      <h2>Your Progress</h2>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div id="stat-sessions" class="stat-value">0</div>
+          <div class="stat-label">Sessions</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-average" class="stat-value">-</div>
+          <div class="stat-label">Average Score</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-best" class="stat-value">-</div>
+          <div class="stat-label">Best Score</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-questions" class="stat-value">0</div>
+          <div class="stat-label">Questions Answered</div>
+        </div>
+      </div>
+
+      <div class="history-section">
+        <h3>Recent Sessions</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Score</th>
+              <th>Correct</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody id="history-body">
+            <tr><td colspan="4">No sessions yet. Start your first quiz!</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="data-actions">
+        <button id="export-btn" class="btn btn-secondary">Export Progress</button>
+        <button id="import-btn" class="btn btn-secondary">Import Progress</button>
+        <input type="file" id="import-file" accept=".json">
+      </div>
+
+      <button id="progress-back-btn" class="btn btn-primary btn-block" style="margin-top: 20px;">Back to Home</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/questions.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
