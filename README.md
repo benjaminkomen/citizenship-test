@@ -5,7 +5,7 @@ server required — runs entirely in your browser.
 
 ## Features
 
-- **200 practice questions** covering all 11 chapters of the Discover Canada study guide
+- **245 practice questions** covering all 11 chapters of the Discover Canada study guide
 - **Smart question selection** — prioritizes questions you've previously answered incorrectly
 - **Spaced repetition** — weak questions are removed from the "needs practice" list after 2 consecutive correct answers
 - **Immediate feedback** with detailed explanations for each question

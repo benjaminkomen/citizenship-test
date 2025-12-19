@@ -2601,6 +2601,591 @@ const QUESTIONS = [
     ],
     correctAnswer: 2,
     explanation: "Vimy Day is April 9, commemorating the Battle of Vimy Ridge (1917), a defining moment in Canadian history."
+  },
+  {
+    id: 201,
+    chapter: "Rights and Responsibilities",
+    question: "What are the sources of Canadian law?",
+    options: [
+      "Only laws passed by Parliament",
+      "Laws passed by Parliament/legislatures, English common law, French civil code, and the unwritten British constitution",
+      "Only the Canadian Charter of Rights and Freedoms",
+      "Only the Constitution Act of 1982"
+    ],
+    correctAnswer: 1,
+    explanation: "Canadian law comes from four sources: laws passed by Parliament and provincial legislatures, English common law, the civil code of France, and the unwritten constitution inherited from Great Britain."
+  },
+  {
+    id: 202,
+    chapter: "Canada's History",
+    question: "What was the Chinese Head Tax, and when did the government apologize for it?",
+    options: [
+      "A tax on Chinese imports; apology in 1988",
+      "A discriminatory tax on Chinese railway workers and immigrants; apology in 2006",
+      "A fee for Chinese businesses; apology in 1999",
+      "A tax on Chinese goods; never apologized"
+    ],
+    correctAnswer: 1,
+    explanation: "The Chinese Head Tax was discriminatory legislation against Chinese workers who helped build the Canadian Pacific Railway. The federal government apologized in 2006."
+  },
+  {
+    id: 203,
+    chapter: "How Canadians Govern Themselves",
+    question: "What is the correct order of steps for a bill to become law?",
+    options: [
+      "Royal Assent, Senate, House of Commons vote",
+      "First reading, Second reading, Committee, Report stage, Third reading, Senate process, Royal Assent",
+      "Prime Minister approval, Senate vote, Governor General signature",
+      "House vote, Prime Minister signature, publication"
+    ],
+    correctAnswer: 1,
+    explanation: "A bill goes through: First reading (introduction), Second reading (debate), Committee stage (detailed study), Report stage (amendments), Third reading (final vote), then the same process in the Senate, and finally Royal Assent by the Governor General."
+  },
+  {
+    id: 204,
+    chapter: "Canada's History",
+    question: "Who were Jean Talon, Bishop Laval, and Count Frontenac?",
+    options: [
+      "Fathers of Confederation",
+      "Leaders of Royal New France in the 1600s",
+      "Explorers who mapped the Arctic",
+      "British generals in the War of 1812"
+    ],
+    correctAnswer: 1,
+    explanation: "Jean Talon, Bishop Laval, and Count Frontenac were important leaders of Royal New France in the 1600s who helped establish the French colony."
+  },
+  {
+    id: 205,
+    chapter: "Canada's History",
+    question: "Who were the voyageurs and coureurs des bois?",
+    options: [
+      "French military officers",
+      "Fur traders and canoe paddlers who traveled through the wilderness",
+      "Farmers in New France",
+      "Missionaries to the Aboriginal peoples"
+    ],
+    correctAnswer: 1,
+    explanation: "Voyageurs and coureurs des bois were fur traders and canoe paddlers who traveled through the Canadian wilderness during the fur trade era. Their interactions with Aboriginal peoples contributed to the birth of the Métis."
+  },
+  {
+    id: 206,
+    chapter: "Modern Canada",
+    question: "When was the Canadian Space Agency established?",
+    options: [
+      "1969",
+      "1981",
+      "1989",
+      "2001"
+    ],
+    correctAnswer: 2,
+    explanation: "The Canadian Space Agency was established in 1989. Canada has contributed the Canadarm robotic arm and sent astronauts into space."
+  },
+  {
+    id: 207,
+    chapter: "Modern Canada",
+    question: "Which Canadian scientists have won Nobel Prizes?",
+    options: [
+      "Alexander Graham Bell and Sir Sandford Fleming",
+      "Gerhard Herzberg and John Polanyi",
+      "Frederick Banting and Terry Fox",
+      "Wilder Penfield and John Hopps"
+    ],
+    correctAnswer: 1,
+    explanation: "Gerhard Herzberg and John Polanyi are among Canadian Nobel Prize-winning scientists recognized for their contributions to chemistry and physics."
+  },
+  {
+    id: 208,
+    chapter: "Federal Elections",
+    question: "When are federal elections normally held under the fixed-date law?",
+    options: [
+      "The first Monday in November every 5 years",
+      "The third Monday in October in the fourth year after the previous election",
+      "July 1 every 4 years",
+      "Any day chosen by the Prime Minister"
+    ],
+    correctAnswer: 1,
+    explanation: "Under the fixed-date election law, federal elections are held on the third Monday in October in the fourth year after the previous election, though elections can be called earlier if the government loses confidence."
+  },
+  {
+    id: 209,
+    chapter: "The Justice System",
+    question: "What does the Federal Court of Canada handle?",
+    options: [
+      "All criminal cases in Canada",
+      "Federal matters such as immigration and intellectual property",
+      "Only appeals from provincial courts",
+      "Municipal by-law violations"
+    ],
+    correctAnswer: 1,
+    explanation: "The Federal Court of Canada handles federal matters including immigration cases, intellectual property disputes, and other issues under federal jurisdiction."
+  },
+  {
+    id: 210,
+    chapter: "The Justice System",
+    question: "What types of specialized courts exist in Canada?",
+    options: [
+      "Only criminal courts",
+      "Small claims, family, traffic, and youth courts",
+      "Only federal and provincial courts",
+      "Military courts only"
+    ],
+    correctAnswer: 1,
+    explanation: "Canada has specialized courts including small claims courts (for low-value civil matters), family courts, traffic courts, and youth courts, in addition to regular provincial and superior courts."
+  },
+  {
+    id: 211,
+    chapter: "The Justice System",
+    question: "What famous quote expresses a key principle of Canadian justice?",
+    options: [
+      "\"Justice delayed is justice denied\"",
+      "\"It is better that ten guilty persons escape than that one innocent suffer\"",
+      "\"An eye for an eye\"",
+      "\"The law is the law\""
+    ],
+    correctAnswer: 1,
+    explanation: "The quote \"It is better that ten guilty persons escape than that one innocent suffer\" expresses the importance of presumption of innocence and the high standard required to convict someone in Canada's justice system."
+  },
+  {
+    id: 212,
+    chapter: "Federal Elections",
+    question: "What are the three major federal political parties in Canada?",
+    options: [
+      "Liberal Party, Reform Party, Green Party",
+      "Liberal Party, Conservative Party, New Democratic Party (NDP)",
+      "Progressive Conservative, Social Credit, Bloc Québécois",
+      "Democratic Party, Republican Party, Independent Party"
+    ],
+    correctAnswer: 1,
+    explanation: "The three major federal political parties are the Liberal Party of Canada, the Conservative Party of Canada, and the New Democratic Party (NDP)."
+  },
+  {
+    id: 213,
+    chapter: "Federal Elections",
+    question: "What is Elections Canada?",
+    options: [
+      "A political party",
+      "An independent agency that runs federal elections",
+      "A government department under the Prime Minister",
+      "A provincial organization"
+    ],
+    correctAnswer: 1,
+    explanation: "Elections Canada is an independent, non-partisan agency responsible for running federal elections, maintaining the voters' list, and ensuring fair electoral processes."
+  },
+  {
+    id: 214,
+    chapter: "Federal Elections",
+    question: "What is a voter information card?",
+    options: [
+      "A card showing your political party membership",
+      "A card sent by Elections Canada telling you when and where to vote",
+      "A card required to become a citizen",
+      "A credit card for campaign donations"
+    ],
+    correctAnswer: 1,
+    explanation: "A voter information card is sent by Elections Canada to registered voters, showing when and where to vote. You can also register or update your information on election day."
+  },
+  {
+    id: 215,
+    chapter: "The Justice System",
+    question: "What is legal aid?",
+    options: [
+      "A type of law degree",
+      "Government-funded free or low-cost legal help for those who qualify",
+      "Insurance for lawyers",
+      "A legal document"
+    ],
+    correctAnswer: 1,
+    explanation: "Legal aid is government-funded assistance that provides free or low-cost legal help to people who cannot afford a lawyer and meet eligibility requirements."
+  },
+  {
+    id: 216,
+    chapter: "Canada's History",
+    question: "Who was Laura Secord?",
+    options: [
+      "The first female Prime Minister of Canada",
+      "A heroine who walked 30 km to warn British forces of an American attack in 1813",
+      "The founder of women's suffrage in Canada",
+      "The first woman elected to Parliament"
+    ],
+    correctAnswer: 1,
+    explanation: "Laura Secord walked 30 km (19 miles) through wilderness in 1813 to warn British forces of an American attack, contributing to victory at the Battle of Beaver Dams during the War of 1812."
+  },
+  {
+    id: 217,
+    chapter: "Canada's History",
+    question: "Who was the first Canadian to receive the Victoria Cross?",
+    options: [
+      "Billy Bishop",
+      "Alexander Roberts Dunn",
+      "William Hall",
+      "Filip Konowal"
+    ],
+    correctAnswer: 1,
+    explanation: "Lieutenant Alexander Roberts Dunn was the first Canadian to receive the Victoria Cross, awarded for bravery in the Charge of the Light Brigade at Balaclava during the Crimean War in 1854."
+  },
+  {
+    id: 218,
+    chapter: "Canada's History",
+    question: "Who was the first Black man to receive the Victoria Cross?",
+    options: [
+      "Alexander Roberts Dunn",
+      "William Hall",
+      "Filip Konowal",
+      "Robert Hampton Gray"
+    ],
+    correctAnswer: 1,
+    explanation: "Able Seaman William Hall of Horton, Nova Scotia, whose parents were American slaves, was the first Black man to receive the Victoria Cross for his role in the Siege of Lucknow during the Indian Rebellion of 1857."
+  },
+  {
+    id: 219,
+    chapter: "Canada's History",
+    question: "Who was the last Canadian to receive the Victoria Cross?",
+    options: [
+      "Billy Bishop",
+      "Paul Triquet",
+      "Robert Hampton Gray",
+      "Filip Konowal"
+    ],
+    correctAnswer: 2,
+    explanation: "Lieutenant Robert Hampton Gray was the last Canadian to receive the Victoria Cross, killed while bombing and sinking a Japanese warship in August 1945, just days before the end of WWII."
+  },
+  {
+    id: 220,
+    chapter: "Canada's History",
+    question: "What was the Battle of Amiens (August 8, 1918) called by the Germans?",
+    options: [
+      "The birth of the nation",
+      "The black day of the German Army",
+      "The Great Canadian Victory",
+      "The turning point"
+    ],
+    correctAnswer: 1,
+    explanation: "The Battle of Amiens on August 8, 1918 was called 'the black day of the German Army' by the Germans due to the decisive Allied victory led by Canadian and Australian forces."
+  },
+  {
+    id: 221,
+    chapter: "Canada's History",
+    question: "Who was called 'Canada's greatest soldier'?",
+    options: [
+      "Isaac Brock",
+      "Sir Arthur Currie",
+      "Billy Bishop",
+      "Tecumseh"
+    ],
+    correctAnswer: 1,
+    explanation: "General Sir Arthur Currie was called 'Canada's greatest soldier' for his leadership of the Canadian Corps during World War I."
+  },
+  {
+    id: 222,
+    chapter: "Canada's History",
+    question: "How many Canadians served in World War I, and how many were killed or wounded?",
+    options: [
+      "300,000 served; 30,000 killed",
+      "600,000 served; 60,000 killed and 170,000 wounded",
+      "1 million served; 100,000 killed",
+      "500,000 served; 44,000 killed"
+    ],
+    correctAnswer: 1,
+    explanation: "Over 600,000 Canadians served in World War I. About 60,000 were killed and 170,000 were wounded."
+  },
+  {
+    id: 223,
+    chapter: "Canada's History",
+    question: "Who founded the women's suffrage movement in Canada and was the first Canadian woman to practice medicine?",
+    options: [
+      "Agnes Macphail",
+      "Emily Stowe",
+      "Thérèse Casgrain",
+      "Nellie McClung"
+    ],
+    correctAnswer: 1,
+    explanation: "Dr. Emily Stowe was the first Canadian woman to practice medicine in Canada and founded the women's suffrage movement."
+  },
+  {
+    id: 224,
+    chapter: "Canada's History",
+    question: "Who led the campaign that won Quebec women the right to vote in 1940?",
+    options: [
+      "Agnes Macphail",
+      "Emily Stowe",
+      "Thérèse Casgrain",
+      "Laura Secord"
+    ],
+    correctAnswer: 2,
+    explanation: "Thérèse Casgrain led the campaign that won Quebec women the right to vote in 1940, the last province to grant women's suffrage."
+  },
+  {
+    id: 225,
+    chapter: "Canada's History",
+    question: "What was the South African War (Boer War) and when was it fought?",
+    options: [
+      "A war against Germany, 1914-1918",
+      "Canada's first overseas war, 1899-1902",
+      "A conflict with the United States, 1812",
+      "A war in Asia, 1950-1953"
+    ],
+    correctAnswer: 1,
+    explanation: "The South African War (Boer War) from 1899-1902 was Canada's first overseas war. Over 7,000 Canadians volunteered and more than 260 died."
+  },
+  {
+    id: 226,
+    chapter: "Canada's History",
+    question: "Who was Gabriel Dumont?",
+    options: [
+      "The first French-Canadian Prime Minister",
+      "The Métis military leader during the 1885 rebellion",
+      "A Father of Confederation",
+      "The founder of the RCMP"
+    ],
+    correctAnswer: 1,
+    explanation: "Gabriel Dumont was the Métis military leader who fought alongside Louis Riel during the North-West Rebellion of 1885."
+  },
+  {
+    id: 227,
+    chapter: "Canada's History",
+    question: "What was the British Commonwealth Air Training Plan during WWII?",
+    options: [
+      "A plan to bomb Germany",
+      "A program that trained over 130,000 Allied aircrew in Canada",
+      "A plan to defend Canadian airspace",
+      "A program to build aircraft in Canada"
+    ],
+    correctAnswer: 1,
+    explanation: "The British Commonwealth Air Training Plan trained over 130,000 Allied aircrew in Canada during WWII, making a crucial contribution to the war effort."
+  },
+  {
+    id: 228,
+    chapter: "Canada's History",
+    question: "How large was Canada's navy by the end of World War II?",
+    options: [
+      "The largest in the world",
+      "The third-largest in the world",
+      "The fifth-largest in the world",
+      "The tenth-largest in the world"
+    ],
+    correctAnswer: 1,
+    explanation: "By the end of World War II, Canada had the third-largest navy in the world, playing a crucial role in the Battle of the Atlantic."
+  },
+  {
+    id: 229,
+    chapter: "Canada's History",
+    question: "When did British Parliament prohibit the buying and selling of slaves?",
+    options: [
+      "1793",
+      "1807",
+      "1833",
+      "1865"
+    ],
+    correctAnswer: 1,
+    explanation: "British Parliament prohibited the buying and selling of slaves in 1807. Full abolition throughout the British Empire came in 1833."
+  },
+  {
+    id: 230,
+    chapter: "Canadian Symbols",
+    question: "When is National Flag of Canada Day?",
+    options: [
+      "July 1",
+      "February 15",
+      "November 11",
+      "January 11"
+    ],
+    correctAnswer: 1,
+    explanation: "National Flag of Canada Day is February 15, commemorating the day the current maple leaf flag was first raised in 1965."
+  },
+  {
+    id: 231,
+    chapter: "Canadian Symbols",
+    question: "When is Sir Wilfrid Laurier Day?",
+    options: [
+      "January 11",
+      "November 20",
+      "July 1",
+      "April 9"
+    ],
+    correctAnswer: 1,
+    explanation: "Sir Wilfrid Laurier Day is November 20, commemorating Canada's first French-Canadian Prime Minister."
+  },
+  {
+    id: 232,
+    chapter: "Canadian Symbols",
+    question: "When is Fête nationale (Saint-Jean-Baptiste Day) celebrated in Quebec?",
+    options: [
+      "July 1",
+      "June 24",
+      "May 24",
+      "November 11"
+    ],
+    correctAnswer: 1,
+    explanation: "Fête nationale (Saint-Jean-Baptiste Day) is celebrated on June 24 in Quebec, the Feast of St. John the Baptist."
+  },
+  {
+    id: 233,
+    chapter: "Canadian Symbols",
+    question: "What is the Clarkson Cup?",
+    options: [
+      "A trophy for men's hockey",
+      "A trophy for women's hockey, established in 2005",
+      "A trophy for lacrosse",
+      "A trophy for Canadian football"
+    ],
+    correctAnswer: 1,
+    explanation: "The Clarkson Cup, established in 2005 by Adrienne Clarkson (the 26th Governor General and first of Asian origin), is awarded for women's hockey."
+  },
+  {
+    id: 234,
+    chapter: "Canadian Symbols",
+    question: "Who donated the Stanley Cup?",
+    options: [
+      "Sir John A. Macdonald",
+      "Lord Stanley, the Governor General, in 1892",
+      "Queen Victoria in 1867",
+      "Sir Wilfrid Laurier in 1900"
+    ],
+    correctAnswer: 1,
+    explanation: "The Stanley Cup was donated by Lord Stanley, the Governor General, in 1892 and is awarded to the NHL championship team."
+  },
+  {
+    id: 235,
+    chapter: "Canadian Symbols",
+    question: "Which sport has the most registered players in Canada?",
+    options: [
+      "Ice hockey",
+      "Soccer",
+      "Lacrosse",
+      "Canadian football"
+    ],
+    correctAnswer: 1,
+    explanation: "Soccer has the most registered players of any sport in Canada, though ice hockey remains the most popular spectator sport."
+  },
+  {
+    id: 236,
+    chapter: "Canada's Economy",
+    question: "What is inscribed on the Peace Arch at the Canada-U.S. border?",
+    options: [
+      "From sea to sea",
+      "Children of a common mother and brethren dwelling together in unity",
+      "True North strong and free",
+      "Peace, order, and good government"
+    ],
+    correctAnswer: 1,
+    explanation: "The Peace Arch at Blaine (B.C./Washington border) is inscribed with 'children of a common mother' and 'brethren dwelling together in unity,' symbolizing Canada-U.S. friendship."
+  },
+  {
+    id: 237,
+    chapter: "Canada's Regions",
+    question: "What is the Confederation Bridge?",
+    options: [
+      "A bridge connecting Ontario and Quebec",
+      "One of the world's longest multispan bridges, connecting PEI to mainland Canada",
+      "A bridge over the St. Lawrence River",
+      "A historic bridge in Ottawa"
+    ],
+    correctAnswer: 1,
+    explanation: "The Confederation Bridge connects Prince Edward Island to mainland Canada and is one of the longest continuous multispan bridges in the world."
+  },
+  {
+    id: 238,
+    chapter: "Canada's Regions",
+    question: "Who wrote Anne of Green Gables?",
+    options: [
+      "Margaret Atwood",
+      "Lucy Maud Montgomery",
+      "Margaret Laurence",
+      "Alice Munro"
+    ],
+    correctAnswer: 1,
+    explanation: "Anne of Green Gables was written by Lucy Maud Montgomery and is set in Prince Edward Island. It tells the story of a red-headed orphan girl."
+  },
+  {
+    id: 239,
+    chapter: "Canada's Regions",
+    question: "What percentage of Canada's arable land is in Saskatchewan?",
+    options: [
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ],
+    correctAnswer: 1,
+    explanation: "Saskatchewan has 40% of Canada's arable land and is known as the 'breadbasket of the world' for its grain and oilseed production."
+  },
+  {
+    id: 240,
+    chapter: "Canada's Regions",
+    question: "Which province has the largest Aboriginal population as a percentage?",
+    options: [
+      "British Columbia",
+      "Manitoba",
+      "Saskatchewan",
+      "Quebec"
+    ],
+    correctAnswer: 1,
+    explanation: "Manitoba has the largest Aboriginal population of any province, at over 15% of the population."
+  },
+  {
+    id: 241,
+    chapter: "Canada's Regions",
+    question: "What is the second-longest river system in North America?",
+    options: [
+      "St. Lawrence River",
+      "Mackenzie River",
+      "Fraser River",
+      "Churchill River"
+    ],
+    correctAnswer: 1,
+    explanation: "The Mackenzie River at 4,200 km is the second-longest river system in North America after the Mississippi, draining 1.8 million square kilometres."
+  },
+  {
+    id: 242,
+    chapter: "Canada's Regions",
+    question: "What was Iqaluit formerly called, and who was it named after?",
+    options: [
+      "Yellowknife, named after gold miners",
+      "Frobisher Bay, named after explorer Martin Frobisher",
+      "Whitehorse, named after rapids",
+      "Churchill, named after the British PM"
+    ],
+    correctAnswer: 1,
+    explanation: "Iqaluit was formerly called Frobisher Bay, named after Martin Frobisher, the English explorer who explored the Arctic for Queen Elizabeth I in 1576."
+  },
+  {
+    id: 243,
+    chapter: "Canada's Regions",
+    question: "What is Yellowknife known as?",
+    options: [
+      "The oil capital of Canada",
+      "The diamond capital of North America",
+      "The wheat capital of the world",
+      "The financial capital of Canada"
+    ],
+    correctAnswer: 1,
+    explanation: "Yellowknife, capital of the Northwest Territories, is known as the 'diamond capital of North America' due to its diamond mining industry."
+  },
+  {
+    id: 244,
+    chapter: "Canada's Regions",
+    question: "What is the most famous street intersection in Canada?",
+    options: [
+      "Bay and King in Toronto",
+      "Portage and Main in Winnipeg",
+      "Granville and Robson in Vancouver",
+      "Ste-Catherine and Peel in Montreal"
+    ],
+    correctAnswer: 1,
+    explanation: "Portage and Main in Winnipeg's Exchange District is considered the most famous street intersection in Canada."
+  },
+  {
+    id: 245,
+    chapter: "Canada's History",
+    question: "When did Prince Edward Island first have a representative assembly?",
+    options: [
+      "1758",
+      "1773",
+      "1785",
+      "1867"
+    ],
+    correctAnswer: 1,
+    explanation: "Prince Edward Island established its first representative assembly in 1773, following Nova Scotia (1758) and before New Brunswick (1785)."
   }
 ];
 

@@ -205,14 +205,17 @@ English Canadians:
 
 ## Beginnings of Democracy / Abolition of Slavery
 
-* First representative assembly: Nova Scotia (1758).
+* First representative assembly: Nova Scotia (1758); Prince Edward Island (1773); New Brunswick (1785).
 * Constitutional Act (1791): Divided Quebec into Upper/Lower Canada; elected assemblies.
-* Slavery abolished: Upper Canada first (1793, John Graves Simcoe); full British Empire (1833); Underground Railroad
-  brought escaped slaves to Canada.
+* Slavery abolished: Upper Canada first (1793, John Graves Simcoe); British Parliament prohibited buying/selling slaves
+  (1807); full British Empire abolition (1833); Underground Railroad brought escaped slaves to Canada.
+* Mary Ann Shadd Cary (1853): First woman publisher in Canada; anti-slavery activist, edited The Provincial Freeman.
 
 ## War of 1812
 
 * U.S. invasion repelled by British, Canadians, First Nations (led by Tecumseh, Isaac Brock, Charles de Salaberry).
+* Laura Secord (1813): Heroine who walked 30 km (19 miles) through wilderness to warn British forces of American attack,
+  contributing to victory at Battle of Beaver Dams.
 * Outcome: Confirmed Canada's separation from U.S.; modern border shaped.
 
 ## Rebellions (1837–1838) / Responsible Government
@@ -237,11 +240,12 @@ English Canadians:
 
 * Provinces/Territories joining: Manitoba (1870), BC (1871), PEI (1873), Alberta/Saskatchewan (1905), Newfoundland (
   1949), Nunavut (1999).
-* Red River Resistance (1869–1870) & North-West Rebellion (1885): Led by Louis Riel (Métis rights); Manitoba created;
-  Riel executed (divisive).
-* North West Mounted Police (1873): Pacified West; became RCMP ("Mounties").
+* Red River Resistance (1869–1870) & North-West Rebellion (1885): Led by Louis Riel (Métis rights); Gabriel Dumont was
+  Métis military leader; Manitoba created; Riel executed (divisive).
+* North West Mounted Police (1873): Pacified West; became RCMP ("Mounties"); Sir Sam Steele was legendary hero.
 * Canadian Pacific Railway (1885): Completed transcontinental link; Chinese labour (Head Tax discrimination; apology
   2006).
+* South African War/Boer War (1899–1902): First overseas war; 7,000+ Canadians volunteered; 260+ died.
 
 ## Moving West / Early 20th Century
 
@@ -249,19 +253,32 @@ English Canadians:
 
 ## First World War
 
-* 600,000 served; Vimy Ridge (1917): Iconic victory, "birth of the nation."
-* 60,000 killed; Remembrance Day (Nov. 11); poppies; "In Flanders Fields" poem by John McCrae.
+* 600,000+ served; 60,000 killed; 170,000 wounded.
+* Vimy Ridge (April 1917): Iconic victory, "birth of the nation" – all four Canadian divisions fought together.
+* Battle of Amiens (August 8, 1918): Germans called it "the black day of the German Army."
+* General Sir Arthur Currie: Called "Canada's greatest soldier."
+* WWI internment (1914–1920): 8,000+ people of Austro-Hungarian origin (mostly Ukrainian) interned as "enemy aliens."
+* Remembrance Day (Nov. 11); poppies; "In Flanders Fields" poem by John McCrae.
 
 ## Women Get the Vote
 
 * Manitoba first provincially (1916); federal (1918 for most women); Quebec last (1940).
 * Agnes Macphail: First female MP (1921).
+* Dr. Emily Stowe: First Canadian woman to practice medicine; founded the women's suffrage movement in Canada.
+* Thérèse Casgrain: Led campaign that won Quebec women the right to vote (1940).
 
 ## Between the Wars / Second World War
 
 * Great Depression (1929–1930s); Bank of Canada (1934).
-* WWII: >1 million served; key roles (D-Day Juno Beach 1944, Battle of the Atlantic, liberation of Netherlands); 44,000
-  killed.
+* WWII: >1 million served; 44,000 killed.
+* Key battles/operations:
+    * Hong Kong defence (1941) – Canadian losses
+    * Dieppe raid (1942) – costly but provided lessons for D-Day
+    * D-Day Juno Beach (June 6, 1944) – 14,000 Canadians landed
+    * Battle of the Atlantic – protecting convoys
+    * Liberation of Netherlands (1944–1945)
+* RCAF fought in Battle of Britain; British Commonwealth Air Training Plan trained 130,000+ Allied aircrew in Canada.
+* Canada had third-largest navy in the world by end of WWII.
 * Regrettable actions: Japanese-Canadian internment (apology 1988).
 
 ## Common Test Questions from This Chapter Focus On:
@@ -638,9 +655,13 @@ How Much Do You Know About Your Government? (Updated as of December 15, 2025)
 
 ## Popular Sports
 
-* Ice hockey: National winter sport; most popular; developed 1800s; Stanley Cup (donated 1892 by Lord Stanley).
-* Lacrosse: National summer sport.
-* Others: Canadian football, curling, soccer (most participants).
+* Ice hockey: National winter sport; most popular spectator sport; developed in Canada in 1800s.
+    * Stanley Cup (donated 1892 by Lord Stanley, Governor General).
+    * Clarkson Cup (2005): For women's hockey; named after Adrienne Clarkson, 26th Governor General (first of Asian origin).
+* Lacrosse: National summer sport; ancient sport first played by Aboriginal peoples.
+* Canadian football: Second most popular sport.
+* Curling: Ice game introduced by Scottish pioneers.
+* Soccer: Most registered players of any sport in Canada.
 
 ## The Beaver
 
@@ -663,19 +684,31 @@ How Much Do You Know About Your Government? (Updated as of December 15, 2025)
 
 * Order of Canada (1967): Recognizes outstanding achievement/service.
 * Victoria Cross (highest for military valour; Canadian version since 1993).
-* 98 Canadians awarded (original VC); last in 1945 (Lt. Robert Hampton Gray, WWII).
+* 96 Canadians awarded the VC since 1854. Notable recipients:
+    * Lt. Alexander Roberts Dunn (1854): First Canadian to receive VC (Crimean War, Charge of Light Brigade).
+    * Able Seaman William Hall (1857): First Black man to receive VC (Siege of Lucknow, Indian Rebellion).
+    * Corporal Filip Konowal (1917): First non-British Empire-born member of Canadian Corps to receive VC; born in Ukraine.
+    * Captain Billy Bishop: Flying ace, WWI; later Air Marshal of RCAF.
+    * Captain Paul Triquet (1943): VC at Casa Berardi, Italy, WWII.
+    * Lt. Robert Hampton Gray (1945): Last Canadian to receive VC; killed sinking Japanese warship days before war ended.
 
 ## National Public Holidays / Important Dates (commonly tested)
 
-* New Year's Day (Jan 1)
-* Good Friday & Easter Monday
-* Victoria Day (Monday before May 25)
+* New Year's Day (January 1)
+* Sir John A. Macdonald Day (January 11)
+* Good Friday (Friday before Easter Sunday)
+* Easter Monday (Monday after Easter Sunday)
+* Vimy Day (April 9)
+* Victoria Day (Monday before May 25) – Sovereign's official birthday
+* National Flag of Canada Day (February 15)
+* Fête nationale / Saint-Jean-Baptiste Day (June 24) – Quebec
 * Canada Day (July 1)
-* Labour Day (first Monday September)
-* Thanksgiving (second Monday October)
-* Remembrance Day (Nov 11)
-* Christmas Day (Dec 25)
-* Others: Sir John A. Macdonald Day (Jan 11), Vimy Day (Apr 9), etc.
+* Labour Day (first Monday in September)
+* Thanksgiving Day (second Monday in October)
+* Remembrance Day (November 11)
+* Sir Wilfrid Laurier Day (November 20)
+* Christmas Day (December 25)
+* Boxing Day (December 26)
 
 ## Common Test Questions from This Chapter Focus On:
 
@@ -715,8 +748,9 @@ How Much Do You Know About Your Government? (Updated as of December 15, 2025)
 ## Canada–U.S. Economic Relationship
 
 * World's largest bilateral trading relationship.
-* Share the longest undefended border.
-* Peace Arch at Blaine (B.C./Washington border): Symbol of friendship and close ties.
+* Share "the world's longest undefended border."
+* Peace Arch at Blaine (B.C./Washington border): Symbol of friendship; inscribed "children of a common mother" and
+  "brethren dwelling together in unity."
 
 ## Common Test Questions from This Chapter Focus On:
 
@@ -766,8 +800,9 @@ How Much Do You Know About Your Government? (Updated as of December 15, 2025)
 
 * Newfoundland and Labrador: Most easterly point; own time zone (½ hour ahead); fisheries, offshore oil/gas; hydro in
   Labrador.
-* Prince Edward Island (smallest province): Agriculture (potatoes), red soil, beaches; birthplace of Confederation; Anne
-  of Green Gables.
+* Prince Edward Island (smallest province): Agriculture (potatoes), red soil, beaches; birthplace of Confederation;
+  Confederation Bridge (one of the world's longest continuous multispan bridges); Anne of Green Gables by Lucy Maud
+  Montgomery.
 * Nova Scotia: Most populous Atlantic province; Bay of Fundy (world's highest tides); Halifax (major port/naval base);
   shipbuilding, fisheries, Celtic/Gaelic traditions.
 * New Brunswick: Only officially bilingual province (~1/3 French-speaking); founded by United Empire Loyalists;
@@ -782,10 +817,11 @@ How Much Do You Know About Your Government? (Updated as of December 15, 2025)
 
 ## 11.3 - Prairie Provinces (fertile farmland, energy resources)
 
-* Manitoba: Agriculture, mining, hydro; Winnipeg (major centre); large Ukrainian and Aboriginal populations; St.
-  Boniface (Western Canada's largest Francophone community).
-* Saskatchewan: "Breadbasket" (wheat, oilseeds); world's richest uranium/potash; oil/gas; Regina (RCMP training
-  academy); Saskatoon (mining hub).
+* Manitoba: Agriculture, mining, hydro; Winnipeg (major centre; Portage and Main – most famous intersection in Canada);
+  14% Ukrainian origins; largest Aboriginal population of any province (over 15%); St. Boniface (Western Canada's largest
+  Francophone community at 45,000).
+* Saskatchewan: "Breadbasket of the world" / "wheat province"; 40% of Canada's arable land; world's richest uranium/potash
+  deposits; oil/gas; Regina (RCMP training academy); Saskatoon (mining hub).
 * Alberta (most populous Prairie): Oil/gas leader; cattle/beef; five national parks (Banff oldest, 1885); dinosaurs (
   Badlands).
 
@@ -799,9 +835,10 @@ How Much Do You Know About Your Government? (Updated as of December 15, 2025)
 
 * Mining (diamonds, gold, zinc); oil/gas; traditional Inuit hunting/fishing/art; "Land of the Midnight Sun"; tundra.
 * Yukon: 1890s Gold Rush; White Pass & Yukon Route railway; coldest recorded temperature (-63°C).
-* Northwest Territories: Yellowknife ("diamond capital"); Mackenzie River (Canada's longest); > half Aboriginal.
+* Northwest Territories: Yellowknife ("diamond capital of North America"); Mackenzie River (4,200 km – second-longest
+  river system in North America after Mississippi); > half Aboriginal (Dene, Inuit, Métis).
 * Nunavut ("our land" in Inuktitut; created 1999): ~85% Inuit; Inuktitut official language; consensus government;
-  Iqaluit capital.
+  Iqaluit capital (formerly Frobisher Bay, named after Martin Frobisher who explored for Queen Elizabeth I in 1576).
 * Canadian Rangers: Reserve force; use Indigenous knowledge to protect Arctic sovereignty.
 
 ## Common Test Questions from This Chapter Focus On:
