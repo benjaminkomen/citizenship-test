@@ -2081,6 +2081,526 @@ const QUESTIONS = [
     ],
     correctAnswer: 2,
     explanation: "Canada's population is approximately 41 million (as of 2025). Most Canadians live in cities and towns near the U.S. border."
+  },
+  {
+    id: 161,
+    chapter: "Canadian Symbols",
+    question: "What is the Victoria Cross?",
+    options: [
+      "A religious symbol",
+      "The highest military honour for valour",
+      "A type of medal for sports",
+      "A civilian award"
+    ],
+    correctAnswer: 1,
+    explanation: "The Victoria Cross is the highest military honour for valour. Canada has had its own version since 1993. 98 Canadians have been awarded the original VC."
+  },
+  {
+    id: 162,
+    chapter: "Canadian Symbols",
+    question: "What is Canada's national summer sport?",
+    options: [
+      "Hockey",
+      "Soccer",
+      "Lacrosse",
+      "Baseball"
+    ],
+    correctAnswer: 2,
+    explanation: "Lacrosse is Canada's national summer sport. Hockey is the national winter sport."
+  },
+  {
+    id: 163,
+    chapter: "Canadian Symbols",
+    question: "What is the Royal Anthem of Canada?",
+    options: [
+      "O Canada",
+      "God Save the King",
+      "The Maple Leaf Forever",
+      "In Flanders Fields"
+    ],
+    correctAnswer: 1,
+    explanation: "God Save the King (or Queen) is the Royal Anthem, played for royal occasions. O Canada is the national anthem."
+  },
+  {
+    id: 164,
+    chapter: "Canadian Symbols",
+    question: "What does the Canadian coat of arms include?",
+    options: [
+      "Only the maple leaf",
+      "Symbols of England, Scotland, France, and Ireland, plus maple leaves",
+      "Only the beaver",
+      "Only the Crown"
+    ],
+    correctAnswer: 1,
+    explanation: "The Canadian coat of arms (granted 1921) includes symbols of England (lion), Scotland (unicorn), France (fleurs-de-lys), Ireland (harp), and three red maple leaves."
+  },
+  {
+    id: 165,
+    chapter: "Canada's History",
+    question: "Who was Joseph Brant?",
+    options: [
+      "A French explorer",
+      "A Mohawk leader who led Loyalist First Nations settlers to Canada",
+      "A British general",
+      "The first Prime Minister"
+    ],
+    correctAnswer: 1,
+    explanation: "Joseph Brant was a Mohawk leader who led Loyalist First Nations settlers to Canada after the American Revolution."
+  },
+  {
+    id: 166,
+    chapter: "Canada's History",
+    question: "Who were the Black Loyalists?",
+    options: [
+      "British soldiers",
+      "About 3,000 Black Loyalists who fled to Canada after the American Revolution",
+      "French settlers",
+      "Aboriginal allies"
+    ],
+    correctAnswer: 1,
+    explanation: "About 3,000 Black Loyalists (freed slaves and free Black people loyal to Britain) fled to Canada after the American Revolution, settling mainly in Nova Scotia."
+  },
+  {
+    id: 167,
+    chapter: "Canada's History",
+    question: "What was the Underground Railroad?",
+    options: [
+      "A subway system",
+      "A secret network that helped escaped slaves reach freedom in Canada",
+      "A railway company",
+      "A mining operation"
+    ],
+    correctAnswer: 1,
+    explanation: "The Underground Railroad was a secret network that helped escaped slaves from the United States reach freedom in Canada, especially after 1833."
+  },
+  {
+    id: 168,
+    chapter: "How Canadians Govern Themselves",
+    question: "What are the three branches of government?",
+    options: [
+      "Federal, provincial, and municipal",
+      "Executive, legislative, and judicial",
+      "Senate, House of Commons, and Supreme Court",
+      "Prime Minister, Governor General, and Sovereign"
+    ],
+    correctAnswer: 1,
+    explanation: "The three branches of government are Executive (runs day-to-day government), Legislative (makes laws), and Judicial (interprets and applies laws)."
+  },
+  {
+    id: 169,
+    chapter: "How Canadians Govern Themselves",
+    question: "What does the Executive branch do?",
+    options: [
+      "Makes laws",
+      "Interprets laws",
+      "Proposes laws and runs day-to-day government",
+      "Elects the Prime Minister"
+    ],
+    correctAnswer: 2,
+    explanation: "The Executive branch proposes laws and runs the day-to-day operations of government. It consists of the Prime Minister and Cabinet at the federal level."
+  },
+  {
+    id: 170,
+    chapter: "How Canadians Govern Themselves",
+    question: "What does the Judicial branch do?",
+    options: [
+      "Makes laws",
+      "Runs the government",
+      "Interprets and applies laws independently",
+      "Collects taxes"
+    ],
+    correctAnswer: 2,
+    explanation: "The Judicial branch interprets and applies laws independently. Courts settle disputes fairly according to law."
+  },
+  {
+    id: 171,
+    chapter: "Federal Elections",
+    question: "Is voting in Canada done by secret ballot?",
+    options: [
+      "No, votes are public",
+      "Yes, voting is private and no one can watch or force you",
+      "Only in federal elections",
+      "Only for citizens over 21"
+    ],
+    correctAnswer: 1,
+    explanation: "Yes, voting in Canada is by secret ballot. No one can watch you vote or force you to vote a certain way."
+  },
+  {
+    id: 172,
+    chapter: "Federal Elections",
+    question: "How often must federal elections be held?",
+    options: [
+      "Every 2 years",
+      "At least every 4 years",
+      "Every 5 years exactly",
+      "Every 6 years"
+    ],
+    correctAnswer: 1,
+    explanation: "Federal elections must be held at least every 4 years, though they can be called earlier if the government loses the confidence of the House of Commons."
+  },
+  {
+    id: 173,
+    chapter: "Federal Elections",
+    question: "How many electoral districts (ridings) are there in Canada?",
+    options: [
+      "About 200",
+      "About 338",
+      "About 500",
+      "About 105"
+    ],
+    correctAnswer: 1,
+    explanation: "There are 338 electoral districts (ridings) in Canada, each represented by one Member of Parliament."
+  },
+  {
+    id: 174,
+    chapter: "The Justice System",
+    question: "What is the highest court in Canada?",
+    options: [
+      "Federal Court of Canada",
+      "Provincial Superior Court",
+      "Supreme Court of Canada",
+      "Court of Appeal"
+    ],
+    correctAnswer: 2,
+    explanation: "The Supreme Court of Canada is the highest court in the country, serving as the final court of appeal."
+  },
+  {
+    id: 175,
+    chapter: "The Justice System",
+    question: "Why are judges independent?",
+    options: [
+      "To make laws",
+      "To ensure fair and impartial justice",
+      "To run the government",
+      "To collect taxes"
+    ],
+    correctAnswer: 1,
+    explanation: "Judges are independent (appointed, with guaranteed salary and tenure) to ensure they can make fair and impartial decisions without political interference."
+  },
+  {
+    id: 176,
+    chapter: "Who We Are",
+    question: "What is the largest religious group in Canada?",
+    options: [
+      "Muslim",
+      "Hindu",
+      "Christian (Catholic being the largest denomination)",
+      "Jewish"
+    ],
+    correctAnswer: 2,
+    explanation: "The majority of Canadians identify as Christian, with Catholic being the largest denomination, followed by various Protestant denominations."
+  },
+  {
+    id: 177,
+    chapter: "Who We Are",
+    question: "Does Canada protect gay and lesbian Canadians from discrimination?",
+    options: [
+      "No",
+      "Yes, they enjoy full legal protection and access to civil marriage",
+      "Only in some provinces",
+      "Only for employment"
+    ],
+    correctAnswer: 1,
+    explanation: "Yes, gay and lesbian Canadians enjoy full legal protection, equal treatment, and access to civil marriage."
+  },
+  {
+    id: 178,
+    chapter: "Canada's Regions",
+    question: "What is Vancouver known as?",
+    options: [
+      "The Capital of Canada",
+      "Canada's Pacific Gateway",
+      "The Breadbasket",
+      "The Diamond Capital"
+    ],
+    correctAnswer: 1,
+    explanation: "Vancouver is known as Canada's Pacific Gateway because the Port of Vancouver handles billions of dollars in goods traded with Asia and the Pacific."
+  },
+  {
+    id: 179,
+    chapter: "Canada's Regions",
+    question: "What is Toronto known as?",
+    options: [
+      "The Capital of Canada",
+      "Canada's financial centre and largest city",
+      "The Pacific Gateway",
+      "The Diamond Capital"
+    ],
+    correctAnswer: 1,
+    explanation: "Toronto is Canada's financial centre and largest city. It is the capital of Ontario."
+  },
+  {
+    id: 180,
+    chapter: "Canada's Regions",
+    question: "What is the coldest temperature ever recorded in Canada?",
+    options: [
+      "-45°C",
+      "-53°C",
+      "-63°C in Yukon",
+      "-72°C"
+    ],
+    correctAnswer: 2,
+    explanation: "The coldest temperature recorded in Canada was -63°C in the Yukon."
+  },
+  {
+    id: 181,
+    chapter: "Modern Canada",
+    question: "What is Kenojuak Ashevak known for?",
+    options: [
+      "Hockey",
+      "Pioneering modern Inuit art",
+      "Politics",
+      "Music"
+    ],
+    correctAnswer: 1,
+    explanation: "Kenojuak Ashevak pioneered modern Inuit art, creating famous prints, etchings, and sculptures."
+  },
+  {
+    id: 182,
+    chapter: "Modern Canada",
+    question: "What are Les Automatistes?",
+    options: [
+      "A hockey team",
+      "Quebec pioneers of modern abstract art in the 1950s",
+      "A political party",
+      "A musical group"
+    ],
+    correctAnswer: 1,
+    explanation: "Les Automatistes were Quebec painters in the 1950s who pioneered modern abstract art. Jean-Paul Riopelle was a notable member."
+  },
+  {
+    id: 183,
+    chapter: "Canada's Economy",
+    question: "What are natural resources industries in Canada?",
+    options: [
+      "Banking and insurance",
+      "Forestry, fishing, agriculture, mining, and energy",
+      "Retail and tourism",
+      "Healthcare and education"
+    ],
+    correctAnswer: 1,
+    explanation: "Natural resources industries include forestry, fishing, agriculture, mining, and energy (oil and gas). These have historically been very important to Canada's economy."
+  },
+  {
+    id: 184,
+    chapter: "Canada's Economy",
+    question: "What was NAFTA?",
+    options: [
+      "A Canadian political party",
+      "A free trade agreement between Canada, the U.S., and Mexico (1994)",
+      "A military alliance",
+      "An environmental agreement"
+    ],
+    correctAnswer: 1,
+    explanation: "NAFTA (North American Free Trade Agreement) was a free trade agreement between Canada, the U.S., and Mexico from 1994 until it was replaced by USMCA in 2020."
+  },
+  {
+    id: 185,
+    chapter: "Canada's Regions",
+    question: "What is the capital of New Brunswick?",
+    options: [
+      "Saint John",
+      "Moncton",
+      "Fredericton",
+      "Halifax"
+    ],
+    correctAnswer: 2,
+    explanation: "Fredericton is the capital of New Brunswick, the only officially bilingual province."
+  },
+  {
+    id: 186,
+    chapter: "Canada's Regions",
+    question: "What is the capital of Prince Edward Island?",
+    options: [
+      "Summerside",
+      "Charlottetown",
+      "Souris",
+      "Montague"
+    ],
+    correctAnswer: 1,
+    explanation: "Charlottetown is the capital of Prince Edward Island. It is known as the 'Birthplace of Confederation' because the Fathers of Confederation met there in 1864."
+  },
+  {
+    id: 187,
+    chapter: "Canada's History",
+    question: "Who was Charles de Salaberry?",
+    options: [
+      "A famous explorer",
+      "A hero of the War of 1812 who defended Canada against American invasion",
+      "The first Prime Minister",
+      "A railway builder"
+    ],
+    correctAnswer: 1,
+    explanation: "Charles de Salaberry was a hero of the War of 1812 who led Canadian forces in defending against American invasion."
+  },
+  {
+    id: 188,
+    chapter: "Canada's History",
+    question: "What was the Red River Resistance (1869-1870)?",
+    options: [
+      "A war with the United States",
+      "An uprising led by Louis Riel for Métis rights",
+      "A gold rush",
+      "A railway strike"
+    ],
+    correctAnswer: 1,
+    explanation: "The Red River Resistance (1869-1870) was led by Louis Riel to protect Métis rights. It led to the creation of Manitoba."
+  },
+  {
+    id: 189,
+    chapter: "Modern Canada",
+    question: "What social programs does Canada have?",
+    options: [
+      "No social programs",
+      "Employment Insurance, Old Age Security, Canada Pension Plan, and universal healthcare",
+      "Only healthcare",
+      "Only pensions"
+    ],
+    correctAnswer: 1,
+    explanation: "Canada has many social programs including Employment Insurance (1940), Old Age Security (1952), Canada and Quebec Pension Plans (1965), and publicly funded healthcare (Canada Health Act)."
+  },
+  {
+    id: 190,
+    chapter: "Rights and Responsibilities",
+    question: "What does equality mean in Canada?",
+    options: [
+      "Only citizens are equal",
+      "Men and women are equal under the law",
+      "Only some people are equal",
+      "Equality is not protected"
+    ],
+    correctAnswer: 1,
+    explanation: "In Canada, men and women are equal under the law. Equality is a fundamental Canadian value protected by the Charter."
+  },
+  {
+    id: 191,
+    chapter: "Canada's History",
+    question: "What was the Great Depression?",
+    options: [
+      "A war",
+      "An economic crisis in the 1930s that caused widespread unemployment",
+      "A political scandal",
+      "A natural disaster"
+    ],
+    correctAnswer: 1,
+    explanation: "The Great Depression (1929-1930s) was a severe worldwide economic crisis that caused widespread unemployment and hardship in Canada."
+  },
+  {
+    id: 192,
+    chapter: "Who We Are",
+    question: "What is Canada's value system built on?",
+    options: [
+      "Only British traditions",
+      "Peace, order, and good government",
+      "Only French traditions",
+      "American values"
+    ],
+    correctAnswer: 1,
+    explanation: "Canada is known for its values of peace, order, and good government, which are foundational to Canadian society."
+  },
+  {
+    id: 193,
+    chapter: "Canada's Regions",
+    question: "Where do most Canadians live?",
+    options: [
+      "In the North",
+      "In cities and towns near the U.S. border",
+      "In rural areas",
+      "On the coasts only"
+    ],
+    correctAnswer: 1,
+    explanation: "Most Canadians live in cities and towns near the U.S. border, where the climate is more temperate."
+  },
+  {
+    id: 194,
+    chapter: "Who We Are",
+    question: "How many Anglophones (English first language) are there in Canada?",
+    options: [
+      "About 7 million",
+      "About 18 million",
+      "About 30 million",
+      "About 5 million"
+    ],
+    correctAnswer: 1,
+    explanation: "There are about 18 million Anglophones (people with English as their first language) in Canada."
+  },
+  {
+    id: 195,
+    chapter: "Who We Are",
+    question: "How many Francophones (French first language) are there in Canada?",
+    options: [
+      "About 2 million",
+      "About 7 million",
+      "About 15 million",
+      "About 20 million"
+    ],
+    correctAnswer: 1,
+    explanation: "There are about 7 million Francophones (people with French as their first language) in Canada, with the majority in Quebec."
+  },
+  {
+    id: 196,
+    chapter: "The Oath of Citizenship",
+    question: "What does the Oath of Citizenship include pledging to observe?",
+    options: [
+      "Only the laws of Canada",
+      "The laws of Canada, the Constitution, and First Nations, Inuit and Métis rights",
+      "Only the Charter",
+      "Only the provincial laws"
+    ],
+    correctAnswer: 1,
+    explanation: "The Oath of Citizenship includes pledging to observe the laws of Canada, the Constitution, and specifically mentions First Nations, Inuit, and Métis peoples."
+  },
+  {
+    id: 197,
+    chapter: "Canada's Regions",
+    question: "What are Canadian Rangers?",
+    options: [
+      "A professional sports team",
+      "A reserve force that uses Indigenous knowledge to protect Arctic sovereignty",
+      "Park rangers only",
+      "RCMP officers"
+    ],
+    correctAnswer: 1,
+    explanation: "Canadian Rangers are a reserve force that uses Indigenous knowledge to protect Canada's Arctic sovereignty."
+  },
+  {
+    id: 198,
+    chapter: "Canada's History",
+    question: "When was the first FTA (Free Trade Agreement) with the U.S. signed?",
+    options: [
+      "1967",
+      "1988",
+      "1994",
+      "2000"
+    ],
+    correctAnswer: 1,
+    explanation: "The first Free Trade Agreement (FTA) between Canada and the United States was signed in 1988."
+  },
+  {
+    id: 199,
+    chapter: "Canadian Symbols",
+    question: "When is Sir John A. Macdonald Day?",
+    options: [
+      "July 1",
+      "January 11",
+      "November 11",
+      "April 9"
+    ],
+    correctAnswer: 1,
+    explanation: "Sir John A. Macdonald Day is January 11, commemorating Canada's first Prime Minister."
+  },
+  {
+    id: 200,
+    chapter: "Canadian Symbols",
+    question: "When is Vimy Day?",
+    options: [
+      "July 1",
+      "November 11",
+      "April 9",
+      "May 25"
+    ],
+    correctAnswer: 2,
+    explanation: "Vimy Day is April 9, commemorating the Battle of Vimy Ridge (1917), a defining moment in Canadian history."
   }
 ];
 
