@@ -3,6 +3,12 @@
 A local web application to help you prepare for the Canadian citizenship test through interactive practice quizzes. No
 server required — runs entirely in your browser.
 
+## 🌐 Try It Now
+
+**[Launch the app →](https://benjaminkomen.github.io/citizenship-test/)**
+
+Practice for your Canadian citizenship test right in your browser — no installation needed.
+
 ## Features
 
 - **245 practice questions** covering all 11 chapters of the Discover Canada study guide
