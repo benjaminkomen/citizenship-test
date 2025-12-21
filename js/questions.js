@@ -3186,6 +3186,45 @@ const QUESTIONS = [
     ],
     correctAnswer: 1,
     explanation: "Prince Edward Island established its first representative assembly in 1773, following Nova Scotia (1758) and before New Brunswick (1785)."
+  },
+  {
+    id: 246,
+    chapter: "Rights and Responsibilities",
+    question: "Which of the following are examples of taking responsibility for yourself and your family?",
+    options: [
+      "Educating yourself, contributing to household expenses, caring for dependents",
+      "Recycling newspapers and buying Canadian products",
+      "Volunteering in the community and helping neighbors",
+      "Working for the government and paying extra taxes"
+    ],
+    correctAnswer: 0,
+    explanation: "Taking responsibility for yourself and your family includes educating yourself, working to support your household, caring for dependent family members, and completing your education."
+  },
+  {
+    id: 247,
+    chapter: "Canada's History",
+    question: "Who was Sir Louis-Hippolyte La Fontaine?",
+    options: [
+      "The first Prime Minister of Canada",
+      "A Father of Confederation",
+      "An early advocate of responsible government and French-Canadian rights",
+      "Leader of the Métis resistance"
+    ],
+    correctAnswer: 2,
+    explanation: "Sir Louis-Hippolyte La Fontaine was a champion of French language rights and responsible government in the 1840s. He worked with Robert Baldwin to achieve responsible government in Canada."
+  },
+  {
+    id: 248,
+    chapter: "Federal Elections",
+    question: "After an election, which party forms the government?",
+    options: [
+      "The party with the most total votes nationwide",
+      "The party that wins the most seats (ridings) in Parliament",
+      "The largest opposition party",
+      "All parties that have seats share power equally"
+    ],
+    correctAnswer: 1,
+    explanation: "The party that wins the most seats (ridings) in the House of Commons forms the government. The leader of that party becomes the Prime Minister."
   }
 ];
 
