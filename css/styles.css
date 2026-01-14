@@ -11,6 +11,9 @@
   --text: #333333;
   --text-light: #666666;
   --border: #DDDDDD;
+  --hover-bg: #FFF5F5;
+  --hover-border: #cccccc;
+  --shadow: rgba(0, 0, 0, 0.1);
 
   /* Feedback */
   --success: #28A745;
@@ -28,6 +31,9 @@
     --text-light: #a0a0a0;
     --border: #404040;
     --white: #2d2d2d;
+    --hover-bg: #3a1a1a;
+    --hover-border: #555555;
+    --shadow: rgba(0, 0, 0, 0.5);
 
     /* Feedback - adjusted for dark mode */
     --success-light: #1a3d24;
@@ -79,7 +85,7 @@ header p {
   display: none;
   background: var(--white);
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px var(--shadow);
   padding: 30px;
   margin-top: 20px;
 }
@@ -115,7 +121,7 @@ header p {
 }
 
 .btn-secondary:hover {
-  background: #ccc;
+  background: var(--hover-border);
 }
 
 .btn-block {
@@ -224,7 +230,7 @@ header p {
 
 .option-btn:hover:not(:disabled) {
   border-color: var(--red);
-  background: #FFF5F5;
+  background: var(--hover-bg);
 }
 
 .option-btn:disabled {
